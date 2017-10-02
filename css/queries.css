@@ -50,3 +50,9 @@
 		font-size: 	30px;
 	}
 }
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+	.google-maps {
+		min-height: 250px;
+	}
+}
