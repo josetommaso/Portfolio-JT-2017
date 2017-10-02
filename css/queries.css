@@ -1,0 +1,52 @@
+@media screen and (max-width: 450px) {
+	.logo {
+		font-size: 	20px;
+	}
+	.toggler {
+		margin-top: 5px;
+	}
+
+	.intro {
+		height: 500px;
+		background-position-x: -195px;
+		background-position-y: -187px;
+	}
+
+	.intro h1 {
+		font-size: 	30px;
+	}
+
+	.intro h3 {
+		font-size: 	15px;
+		padding-top: 10px;
+	}
+	.mobile {
+		padding-top: 35px;
+	}
+}
+
+@media screen and (min-width: 451px) and (max-width: 990px) {
+	.intro {
+		height: 600px;
+	}
+	.intro h1 {
+		font-size: 50px;
+		padding-top: 1.5em;
+	}
+	.intro h3 {
+		font-size: 	30px;
+	}
+	.mobile {
+		padding-top: 35px;
+	}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+	.intro h1 {
+		padding-top: 2em;
+		font-size: 50px;
+	}
+	.intro h3 {
+		font-size: 	30px;
+	}
+}
